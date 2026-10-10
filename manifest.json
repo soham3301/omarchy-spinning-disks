@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.soham3301.spinning-disks",
+  "name": "Spinning Disks",
+  "version": "1.0.0",
+  "author": "Soham Datta",
+  "license": "MIT",
+  "description": "Five transparent spinning wheels on the Omarchy bar that show upload, CPU, memory, disk I/O and download load through speed and colour.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Spinning Disks",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
